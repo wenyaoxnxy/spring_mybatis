@@ -1,0 +1,3 @@
+# spring_mybatis
+记录spring和mybatis的整合，主要包括Spring通过传统Dao方式和Mapper方式来操作mybatis  
+记录的demo主要为整合方式，具体mybatis的使用可以参考另外的一个工程mybatis
