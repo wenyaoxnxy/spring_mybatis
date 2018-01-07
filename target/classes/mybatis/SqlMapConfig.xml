@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+  <mappers>
+    <mapper resource="sqlMap/user.xml"/>
+    <!-- 增加配置，扫描包下面的所有mapper类  -->
+    <package name="com.weny.spring_mybatis.mapper"/>
+  </mappers>
+</configuration>
